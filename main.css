@@ -68,3 +68,44 @@ header {
 	color: var(--dark-clr);
 	font-size: 2em;
 }
+
+/* blog section */
+
+.blogs-card {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem 2rem;
+	margin: 1em 0;
+}
+
+.blogs-card .card {
+	border: 5px solid var(--grey-clr-opacticy-low);
+	padding: 0.7rem;
+	display: flex;
+	flex-flow: nowrap column;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.card .card__header-type {
+	font-weight: 600;
+}
+
+.card .card__header-type,
+.card .card__header-date {
+	font-size: 14px;
+	padding: 0.5rem 0;
+}
+
+.card .card__header-date {
+	padding-top: 0;
+}
+
+.card .card__header-title {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.5rem;
+}
+
+.card .card__link {
+	color: var(--light-clr);
+}
