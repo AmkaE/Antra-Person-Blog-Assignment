@@ -1,3 +1,3 @@
 # Antra Personal Blog Assignment
 
-### [Preview](https://antra-person-blog-assignment.netlify.app/)
+### [Preview](https://antra-personal-blog-assignment.netlify.app/)
