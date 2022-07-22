@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* variables */
 :root {
 	--primary-clr: #0f66e8;
@@ -32,4 +34,9 @@ a {
 
 .secondary-clr {
 	color: var(--secondary-clr);
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
 }
