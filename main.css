@@ -1,0 +1,35 @@
+/* variables */
+:root {
+	--primary-clr: #0f66e8;
+	--secondary-clr: #5cb85c;
+	--light-clr: #0f66e8af;
+	--dark-clr: #22223b;
+	--grey-clr: #717274;
+	--grey-clr-opacticy-low: rgb(113, 114, 116, 0.2);
+}
+
+/* resets */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* utility classes */
+.underline {
+	text-decoration: underline;
+}
+
+.primary-clr {
+	color: var(--primary-clr);
+}
+
+.secondary-clr {
+	color: var(--secondary-clr);
+}
