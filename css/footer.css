@@ -1,0 +1,23 @@
+/* footer */
+.footer {
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--grey-clr-opacity-low);
+}
+
+.footer .footer__content {
+	display: flex;
+	flex-flow: nowrap column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer__content .footer__content-text {
+	color: var(--grey-clr);
+}
+
+.footer__content .footer__content-link {
+	color: var(--light-blue-clr);
+}

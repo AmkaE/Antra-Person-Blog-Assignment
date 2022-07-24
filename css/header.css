@@ -1,0 +1,27 @@
+/* header and navbar styles */
+header {
+	width: 100%;
+	height: 70px;
+}
+
+.navbar {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .navbar__subscribe-btn {
+	color: var(--grey-clr);
+}
+
+.navbar .navbar__heading {
+	color: var(--dark-clr);
+	font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar {
+		padding: 0 0.5rem;
+	}
+}

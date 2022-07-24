@@ -1,0 +1,47 @@
+/* utility classes */
+.underline {
+	text-decoration: underline;
+}
+
+.primary-clr {
+	color: var(--primary-clr);
+}
+
+.secondary-clr {
+	color: var(--secondary-clr);
+}
+
+.bg-primary-clr {
+	background-color: var(--primary-clr);
+}
+
+.bg-secondary-clr {
+	background-color: var(--secondary-clr);
+}
+
+.divider {
+	margin: 1rem 0;
+}
+
+/* padding */
+.p-0\.4 {
+	padding: 0.4rem;
+}
+
+/* margin bottom */
+.mb-0\.5 {
+	margin-bottom: 0.5rem;
+}
+
+.border {
+	border: 1px solid var(--grey-clr);
+}
+
+.rounded {
+	border-radius: 25px;
+}
+
+.link {
+	color: var(--light-blue-clr);
+	text-decoration: underline;
+}
