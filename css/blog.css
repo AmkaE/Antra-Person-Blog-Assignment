@@ -82,3 +82,33 @@
 	border: 2px solid var(--grey-clr);
 	color: var(--grey-clr);
 }
+
+@media screen and (max-width: 768px) {
+	.blog {
+		margin-bottom: 1rem;
+		display: grid;
+		grid-template-areas:
+			'main-content'
+			'sidebar';
+		gap: 1rem;
+	}
+
+	.blog__content-header-title {
+		font-size: 1.5rem;
+	}
+
+	.blog__content-header-date {
+		padding-top: 0.5rem;
+	}
+
+	.blog__sidebar-content {
+		display: flex;
+		flex-flow: nowrap column;
+		gap: 2rem;
+	}
+
+	.blog__sidebar-content-archives,
+	.blog__sidebar-content-links {
+		padding: 1rem;
+	}
+}
